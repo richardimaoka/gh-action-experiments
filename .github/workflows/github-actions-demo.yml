@@ -5,6 +5,7 @@ name: Deploy to Cloud Run from Source
 
 on:
   push:
+    paths: 'gqlgen/**'
     branches: [main]
 
 jobs:
