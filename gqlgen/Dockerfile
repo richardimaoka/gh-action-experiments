@@ -11,7 +11,6 @@ RUN go mod download
 COPY *.go ./
 COPY gqlgen.yml ./gqlgen.yml
 COPY graph ./graph
-COPY data ./data
 
 RUN go build -o ./gqlgen-server
 
