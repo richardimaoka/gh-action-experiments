@@ -33,7 +33,7 @@ jobs:
 
       # This example runs "docker login" directly to Artifact Registry.
       - run: |-
-          echo '${{ steps.auth.outputs.access_token }}' | docker login -u oauth2accesstoken --password-stdin https://REGION-docker.pkg.dev
+          echo '${{ steps.auth.outputs.access_token }}' | docker login -u oauth2accesstoken --password-stdin https://ap-northeast1-docker.pkg.dev
 
       # Authenticate Docker to Google Cloud Artifact Registry
       - name: Docker Auth
