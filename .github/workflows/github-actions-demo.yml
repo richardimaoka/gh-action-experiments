@@ -11,11 +11,11 @@ on:
     branches: [main]
 
 env:
-  PROJECT_ID: richard-experiment # TODO: update Google Cloud project id
-  GAR_LOCATION: ap-northeast1 # TODO: update Artifact Registry location
-  REPOSITORY: reponame-ghact # TODO: update Artifact Registry repository name
-  SERVICE: gqlgen-server # TODO: update Cloud Run service name
-  REGION: ap-northeast1 # TODO: update Cloud Run service region
+  PROJECT_ID: richard-experiment
+  GAR_LOCATION: asia-northeast1
+  REPOSITORY: reponame-ghact
+  SERVICE: gqlgen-server
+  REGION: asia-northeast1
   
   
 jobs:
